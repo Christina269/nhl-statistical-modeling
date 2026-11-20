@@ -11,7 +11,7 @@ An academic study of NHL game outcomes during the 2021–2022 season, developed 
 - Retrospective expected-value analysis against closing market odds; not a recommendation to wager.
 
 ## Data
-The data were obtained for the academic analysis from a publicly accessible website, not from an internal Kaizen Gaming dataset. The scripts use the [Sportsbook Reviews Online NHL 2021–22 archive](https://www.sportsbookreviewsonline.com/scoresoddsarchives/nhl-odds-2021-22/). The raw data are not redistributed here. Script 01 downloads the HTML if it is not already present. If the source is unavailable, place an authorized copy named `sbr_nhl_2021-22.html` in the repository root. The source parser expects two rows per match. Check the source terms before retrieving or redistributing data. 
+The data were obtained for the academic analysis from a publicly accessible website. The scripts use the [Sportsbook Reviews Online NHL 2021–22 archive](https://www.sportsbookreviewsonline.com/scoresoddsarchives/nhl-odds-2021-22/). The raw data are not redistributed here. Script 01 downloads the HTML if it is not already present. If the source is unavailable, place an authorized copy named `sbr_nhl_2021-22.html` in the repository root. The source parser expects two rows per match. Check the source terms before retrieving or redistributing data. 
 
 ## Run
 Install R and run these commands from the repository root:
